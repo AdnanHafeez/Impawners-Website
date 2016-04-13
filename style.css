@@ -1,0 +1,170 @@
+﻿   
+
+
+  html,body{
+           background-color:floralwhite;
+          
+           margin:0;
+           height:100%;
+           font: sans-serif;
+           
+       }
+        div.title
+        {
+            background-color:black;
+            margin-left:0%;
+            margin-top:0%;
+            width:100%;
+            height:auto;
+        }
+          ul.menu
+           {
+            list-style-type: none;
+            margin-top:0;
+            padding: 0px;
+            margin-left:0%;
+            background-color:black;
+            overflow: hidden;
+            position:relative;
+            width: 100%;
+            font:15px arial;    
+            text-align:center;   
+            
+        }
+           li.menulist
+            {
+            display:inline-block;
+}
+            li a {
+                display: block;
+                color: grey;
+                background-color:darkslategray;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active){
+                background-color: darkslategray;
+                color:orange;
+            }
+
+            .active {
+                background-color: floralwhite;
+                color:black;
+            }
+    div.main_content{
+            background-color:floralwhite;
+            color:black;
+            padding:0px;
+            margin-left:30%;
+            margin-top:0;
+            margin-bottom:0px;
+            position:relative;
+            width:40%;
+            height:650px;
+            font:15px arial;
+            overflow-y:auto;
+            
+    }
+
+
+    div.wrapper {
+	        min-height:100%;
+	        position:relative;
+}
+    div.footer {
+        border:1px solid black;
+            background-color:lightyellow;
+            color:black;
+            margin-left:0%;
+            width:97%;
+            height:auto;
+            text-align:center;
+            margin-bottom:0px;
+            position:relative;
+            font:12px arial;     
+            
+    }
+    table.idreq
+        {
+            border-collapse:collapse;
+            width:70%; 
+            margin-left:10%;
+        }
+     th.idtable
+     {
+         border:1px solid grey;
+         padding:3px;
+     }
+     
+     td.idtable
+     {
+         border:1px solid grey;
+         text-align:left;
+         padding:5px;
+         
+     }
+
+
+        tr.idtable:nth-child(even)
+        {
+            background-color:#eee;
+        }
+        tr.idtable:nth-child(odd)
+        {
+            background-color:lightgray;
+        }
+
+        table#OpeningHours
+        {
+            width:30%;
+            float:left;
+        }
+
+        img.unilogo
+        {
+            width:8%;
+            height:8%;
+            float:left;
+                 
+        }
+
+        table#feedbackform
+        {
+            border-collapse:collapse;
+            padding:10px;
+            border-color:white;
+        }
+
+         td.label
+        {
+            text-align:left;
+            padding:10px;
+        }
+
+         td#radiobutton
+         {
+             text-align:center;
+             padding:10px;
+             
+         }
+
+        td.heading
+        {
+            text-align:center;
+            padding:10px;
+            font-weight:bold;
+        }
+
+         tr.contents:nth-child(even)
+        {
+            background-color:#eee;
+            text-align:center;
+            border-collapse:collapse;
+        }
+        tr.contents:nth-child(odd)
+        {
+            background-color:lightgray;
+            text-align:center;
+        }
